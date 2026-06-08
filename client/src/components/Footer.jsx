@@ -1,7 +1,10 @@
 import "./Footer.css";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
 
 function Footer() {
+
+  const resumeLink = "/JANANI_P.jpg";
+
   return (
     <footer>
 
@@ -35,10 +38,16 @@ function Footer() {
             <FaLinkedin />
           </a>
 
-          <a
-            href="mailto:januraji2107@gmail.com"
-          >
+          <a href="mailto:januraji2107@gmail.com">
             <FaEnvelope />
+          </a>
+
+          <a
+            href={resumeLink}
+            download="Janani_P.jpg"
+            className="resume-link"
+          >
+            <FaFilePdf />
           </a>
 
         </div>

@@ -65,7 +65,7 @@ function About() {
 
               <a
                 href={resumeLink}
-                download
+                download="JANANI_P.pdf"
                 className="secondary-btn"
               >
                 Download Resume
