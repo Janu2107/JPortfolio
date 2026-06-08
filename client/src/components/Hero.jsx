@@ -8,6 +8,7 @@ import {
 } from "react-icons/fa";
 
 const PROFILE_URL = "/img.jpeg";
+const RESUME_URL = "/JANANI_P.pdf";
 
 function Hero() {
   return (
@@ -41,7 +42,7 @@ function Hero() {
           <div className="hero-buttons">
 
             <a
-              href="/Janani_Resume.pdf"
+              href={RESUME_URL}
               download
               className="btn-primary"
             >
