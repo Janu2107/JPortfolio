@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <Hero name="Janani" />
       <About />
       <Skills />
       <Projects />
